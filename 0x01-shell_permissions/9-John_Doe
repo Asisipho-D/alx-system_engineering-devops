@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod +x add_execute_permissions.sh
+find . ! -name "hello" -exec chmod 731 {} +
